@@ -473,6 +473,7 @@ button {
 }
 
 .dropdown-text {
+  color: var(--black-color);
   margin-top: 10px;
 }
 
