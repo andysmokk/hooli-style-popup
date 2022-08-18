@@ -7,6 +7,7 @@
 
 .logo-box {
     display: flex;
+    align-items: center;
 }
 
 .header-flex-box {
@@ -16,6 +17,11 @@
 
 .logo-img {
     fill: var(--blue-color);
+
+    @media screen and (max-width: 480px) {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .logo-link:focus,
@@ -39,6 +45,10 @@
     font-weight: 700;
     margin-left: 10px;
     padding-top: 10px;
+
+    @media screen and (max-width: 480px) {
+        font-size: 24px;
+    }
 }
 
 .right-menu-box {
@@ -46,14 +56,26 @@
     align-items: center;
     justify-content: space-between;
     margin-right: 50px;
+
+    @media screen and (max-width: 480px) {
+        margin-right: 40px;
+    }
 }
 
 .notification-list {
     margin-left: 15px;
+
+    @media screen and (max-width: 480px) {
+        margin-left: 10px;
+    }
 }
 
 .popup-menu-list {
     margin-left: 15px;
+
+    @media screen and (max-width: 480px) {
+        margin-left: 10px;
+    }
 }
 
 .nav-list {
@@ -63,6 +85,10 @@
 
 .nav-list-item:not(:first-child) {
     margin-left: 15px;
+
+    @media screen and (max-width: 480px) {
+        margin-left: 10px;
+    }
 }
 
 .link-envelope,
@@ -70,6 +96,28 @@
 .link-bell,
 .dropdown-link {
     fill: var(--blue-color);
+}
+
+.envelope-img,
+.images-img {
+    @media screen and (max-width: 480px) {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.bell-img {
+    @media screen and (max-width: 480px) {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.avatar-img {
+    @media screen and (max-width: 480px) {
+        width: 25px;
+        height: 25px;
+    }
 }
 
 .link-images:focus,
@@ -104,6 +152,11 @@
     border: 2px solid var(--blue-color);
     border-radius: 50%;
     fill: var(--blue-color);
+
+    @media screen and (max-width: 480px) {
+        top: 22%;
+        right: 18px;
+    }
 }
 
 .link-avatar:focus,
@@ -125,6 +178,11 @@
     right: 55px;
     background-color: var(--white-color);
     min-width: 150px;
+
+    @media screen and (max-width: 480px) {
+        top: 78px;
+        right: 36px;
+    }
 }
 
 .polygon-blue {

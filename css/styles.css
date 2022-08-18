@@ -217,6 +217,7 @@ button {
 
 .logo-box {
   display: flex;
+  align-items: center;
 }
 
 .header-flex-box {
@@ -226,6 +227,12 @@ button {
 
 .logo-img {
   fill: var(--blue-color);
+}
+@media screen and (max-width: 480px) {
+  .logo-img {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .logo-link:focus,
@@ -250,6 +257,11 @@ button {
   margin-left: 10px;
   padding-top: 10px;
 }
+@media screen and (max-width: 480px) {
+  .logo-text {
+    font-size: 24px;
+  }
+}
 
 .right-menu-box {
   display: flex;
@@ -257,13 +269,28 @@ button {
   justify-content: space-between;
   margin-right: 50px;
 }
+@media screen and (max-width: 480px) {
+  .right-menu-box {
+    margin-right: 40px;
+  }
+}
 
 .notification-list {
   margin-left: 15px;
 }
+@media screen and (max-width: 480px) {
+  .notification-list {
+    margin-left: 10px;
+  }
+}
 
 .popup-menu-list {
   margin-left: 15px;
+}
+@media screen and (max-width: 480px) {
+  .popup-menu-list {
+    margin-left: 10px;
+  }
 }
 
 .nav-list {
@@ -274,12 +301,39 @@ button {
 .nav-list-item:not(:first-child) {
   margin-left: 15px;
 }
+@media screen and (max-width: 480px) {
+  .nav-list-item:not(:first-child) {
+    margin-left: 10px;
+  }
+}
 
 .link-envelope,
 .link-images,
 .link-bell,
 .dropdown-link {
   fill: var(--blue-color);
+}
+
+@media screen and (max-width: 480px) {
+  .envelope-img,
+.images-img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bell-img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .avatar-img {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 .link-images:focus,
@@ -317,6 +371,12 @@ button {
   border-radius: 50%;
   fill: var(--blue-color);
 }
+@media screen and (max-width: 480px) {
+  .link-avatar {
+    top: 22%;
+    right: 18px;
+  }
+}
 
 .link-avatar:focus,
 .link-avatar:hover {
@@ -337,6 +397,12 @@ button {
   right: 55px;
   background-color: var(--white-color);
   min-width: 150px;
+}
+@media screen and (max-width: 480px) {
+  .check-input:checked ~ .dropdown-content {
+    top: 78px;
+    right: 36px;
+  }
 }
 
 .polygon-blue {
