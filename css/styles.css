@@ -457,13 +457,12 @@ button {
 .dropdown-list {
   padding: 30px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 70px 70px 70px;
   -moz-column-gap: 15px;
        column-gap: 15px;
   row-gap: 20px;
-  height: 340px;
-  max-height: 370px;
-  overflow-y: auto;
+  height: 333px;
+  overflow-y: overlay;
 }
 
 .dropdown-content {
@@ -481,7 +480,7 @@ button {
   right: 0px;
   bottom: 0;
   background-color: rgba(0, 0, 255, 0.4392156863);
-  padding: 10px 134px 10px 134px;
+  padding: 10px 133px 10px 133px;
   cursor: pointer;
 }
 
